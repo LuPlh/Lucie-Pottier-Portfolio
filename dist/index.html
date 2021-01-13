@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Image Grid Motion Effect | Demo 1 | Codrops</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Lucie Pottier">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://kit.fontawesome.com/4fa30db326.js" crossorigin="anonymous"></script>
+		<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-1 loading">
+		<main>
+			<div class="content">
+				<div class="grid">
+					<div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(1.jpg);"></div></div>
+					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(2.jpg);"></div></div>
+					<div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(3.jpg);"></div></div>
+					<div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(4.jpg);"></div></div>
+					<div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(5.jpg);"></div></div>
+					<div class="grid__item pos-6"><div class="grid__item-img" style="background-image:url(6.jpg);"></div></div>
+					<div class="grid__item pos-7"><div class="grid__item-img" style="background-image:url(7.jpg);"></div></div>
+					<div class="grid__item pos-8"><div class="grid__item-img" style="background-image:url(8.jpg);"></div></div>
+					<div class="grid__item pos-9"><div class="grid__item-img" style="background-image:url(9.jpg);"></div></div>
+					<div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(10.jpg);"></div></div>
+				</div>
+				<h1 class="content__title no-select">
+					<span>Lucie Pottier</span>
+					<span class="content__title-sub">Front-End Developer</span>
+				</h1>
+				<div class="links">
+					<a href="https://github.com/LuPlh" class="link" target="_blank"><i class="fab fa-github github"></i></a>
+					<a href="https://www.malt.fr/profile/luciepottier?q=lucie+pottier&as=t&searchid=5ffc926765a9c07bca585e6b" class="link" target="_blank">Profil Malt</a>
+				</div>
+			</div>
+		</main>
+        <svg class="cursor" width="80" height="80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
+		</svg>
+		<script src="demo1.151408fb.js"></script>
+	</body>
+</html>
